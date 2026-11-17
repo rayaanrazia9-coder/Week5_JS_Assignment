@@ -19,9 +19,13 @@ const fruits = ["apple", "banana", "orange"];
 // 4. Log fruits.length
 
 // ✍️ Solve it here ✍️
+console.log(fruits);
 
+fruits.push("mango");
+fruits.shift();
 
-
+console.log(fruits);
+console.log(fruits.length);
 
 /* ------------------------------------------------------------
    Task 2: forEach Loop 🔁
