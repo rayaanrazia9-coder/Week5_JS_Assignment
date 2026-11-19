@@ -43,7 +43,9 @@ const cities = ["Mogadishu", "Hargeisa", "Bosaso", "Garowe"];
 
 // ✍️ Solve it here ✍️
 
-
+cities.forEach((city, index) => {
+  console.log(`${index + 1}. ${city}`);  
+})
 
 
 /* ------------------------------------------------------------
@@ -57,8 +59,15 @@ const cities = ["Mogadishu", "Hargeisa", "Bosaso", "Garowe"];
 
 // ✍️ Solve it here ✍️
 
+const student = {
+   name: "Rayan",
+   age : 20,
+   isEnrolled : true
+};
 
-
+console.log(student.name);
+student.age +=1;
+console.log(student);
 
 /* ------------------------------------------------------------
    Task 4: Array of Objects 🎓
@@ -77,7 +86,9 @@ const students = [
 
 // ✍️ Solve it here ✍️
 
-
+students.forEach((student) => {
+   console.log(`${student.name} scored ${student.score}`);
+})
 
 
 /* ------------------------------------------------------------
