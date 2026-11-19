@@ -99,3 +99,9 @@ students.forEach((student) => {
    ------------------------------------------------------------ */
 
 // ✍️ Stretch: solve it here ✍️
+
+students.forEach((student) => {
+   if(student.score >= 70) {
+      console.log(student.name);
+   }
+})
